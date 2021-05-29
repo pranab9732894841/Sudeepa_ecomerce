@@ -57,44 +57,33 @@
 
 .icon {
   position: absolute;
-  height:90px;
+  height: 90px;
   width: 180px;
   left: 10px;
-  top:-24px;
+  top: -24px;
 }
-.cartButton{
+.cartButton {
   position: relative;
 }
-.margin-8{
+.margin-8 {
   margin: 8px;
 }
-.Cartvalue{
-  position:absolute;
-  top:1px;
-  right:1px;
+.Cartvalue {
+  position: absolute;
+  top: 1px;
+  right: 1px;
   background: #fff;
-  color:#ff3cac;
-  height:20px;
-  width:20px;
+  color: #ff3cac;
+  height: 20px;
+  width: 20px;
   text-align: center;
   border-radius: 100%;
 }
 
 .flex-container {
-  /* We first create a flex layout context */
   display: flex;
-
-  /* Then we define the flow direction 
-     and if we allow the items to wrap 
-   * Remember this is the same as:
-   * flex-direction: row;
-   * flex-wrap: wrap;
-   */
-  flex-flow: row wrap;
-
-  /* Then we define how is distributed the remaining space */
   justify-content: space-around;
-
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -106,6 +95,7 @@
   height: 20rem;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   flex-direction: column;
   margin-top: 10px;
   position: relative;
@@ -124,6 +114,8 @@
 }
 
 .name {
+  color: black;
+
   margin: 4px;
   padding: 4px;
   font-size: 24px;
@@ -131,6 +123,8 @@
   opacity: 0.8;
 }
 .price {
+  color: black;
+
   margin: 8px;
   font-size: 20px;
   font-weight: 800;
@@ -190,4 +184,16 @@ i {
 }
 .fa-check {
   background: #be2edd;
+}
+
+.ImageWraper{
+  height:28px;
+  width: 28px;
+  padding:10px;
+}
+
+
+.cart{
+  margin:16px;
+  padding: 16px;
 }

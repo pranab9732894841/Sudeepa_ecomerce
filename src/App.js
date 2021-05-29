@@ -34,7 +34,7 @@ function App() {
       </div>
       <Switch>
         <Route path="/Cart">
-          <Cart  cart={cart} />
+          <Cart  cart={cart} SetCart={SetCart}/>
         </Route>
         <Route path="/">
           <Home SetCart={SetCart} cart={cart} />
