@@ -7,7 +7,7 @@ import "./root.css";
 
 function App() {
   const [cart, SetCart] = useState([]);
-  console.log("mycart", cart);
+
   return (
     <BrowserRouter>
       <div>
