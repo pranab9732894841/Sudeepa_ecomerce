@@ -10,6 +10,7 @@ function Home(props) {
     const createNewCart = Object.assign(item, { qnt: 1 });
     SetCart([...cart, createNewCart]);
   };
+
   useEffect(() => {
     fetch(apiUrl + "/api/product")
       .then((response) => {
@@ -19,6 +20,7 @@ function Home(props) {
         throw response;
       })
       .then((data) => {
+        console.log(data)
         setData(data);
       });
   }, []);
