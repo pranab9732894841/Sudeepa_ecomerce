@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import Home from "./pages/Home/Home.js";
 import Cart from "./pages/Cart";
-import icon from "./assets/icon.png";
+import icon from "./assets/medico-logos.jpeg";
 import "./root.css";
 
 function App() {
